@@ -9,7 +9,7 @@ class User {
 
     static constraints = {
 		login size: 5..15, blank: false, unique: true
-		password size: 5..15, blank: false
+		password size: 5..15, blank: false, password: true 
 		email email: true, blank: false
     }
 }
